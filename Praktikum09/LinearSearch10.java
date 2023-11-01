@@ -22,7 +22,8 @@ public class LinearSearch10 {
         for (int i = 0; i < arrayInt.length; i++) {
             if (arrayInt[i] == key) {
                 hasil = i;
-                break;
+                System.out.println("key ada di dalam array pada indeks ke- "+ i);
+                i++;
             }
         }
         if (hasil == -1) {
