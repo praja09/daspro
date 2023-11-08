@@ -12,6 +12,10 @@ public class ForKelipatan10 {
         System.out.print("Masukkan bilangan 1-9: ");
         bilangan = input.nextInt();
 
+        for (int i = 0; i < 5; ++i) {
+           System.out.println(i);
+        }
+
         for (int i = 0; i < 50; ++i) {
             if (i % bilangan == 0) {
                 total += i;

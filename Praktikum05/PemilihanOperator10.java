@@ -14,6 +14,13 @@ public class PemilihanOperator10 {
         System.out.print("Masukkan operator (+ - * :): ");
         operator = input10.next().charAt(0);
 
+        // if (angka1 < 30) {
+        //     System.out.println("C");
+        // }
+        // if (angka1 < 50) {
+        //     System.out.println("B");
+        // }
+
         if (operator == '+') {
             total = angka1 + angka2;
         } else if(operator == '-') {

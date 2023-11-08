@@ -35,9 +35,9 @@ public class WhileGaji10 {
                 i--;
                 continue;
             }
-            totalGajiLembur += gajiLembur;
             
-        System.out.println("Total gaji lembur: " + totalGajiLembur);
-    }
+            totalGajiLembur += gajiLembur;
+            System.out.println("Total gaji lembur: " + totalGajiLembur);
+        }
     }
 }

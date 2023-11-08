@@ -17,7 +17,7 @@ Scanner sc = new Scanner(System.in);
     switch (operator) {
         case '+':
             hasil = angka1 + angka2;
-            break;
+            //break;
         case '-':
             hasil = angka1 - angka2;
             break;

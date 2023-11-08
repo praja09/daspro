@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Bilangan10 {
 
     public static void main(String[] args) {
@@ -15,7 +16,7 @@ public class Bilangan10 {
         bil3 = sc.nextInt();
 
         if (bil2 > bil1) {
-            if (bil2 > bil3){
+            if (bil2 > bil3) {
                 max = bil2;
 
                 if (bil3 > bil1) {
@@ -25,24 +26,24 @@ public class Bilangan10 {
                     middle = bil1;
                     min = bil3;
                 }
-            }else {
+            } else {
                 max = bil3;
 
                 if (bil1 > bil2) {
                     middle = bil1;
                     min = bil2;
-                    
+
                 } else {
                     middle = bil2;
                     min = bil1;
                 }
-            }    
+            }
 
         } else {
             if (bil1 > bil3) {
                 max = bil1;
 
-                if (bil3>bil2) {
+                if (bil3 > bil2) {
                     middle = bil3;
                     min = bil2;
 
@@ -55,8 +56,8 @@ public class Bilangan10 {
 
                 if (bil2 > bil1) {
                     middle = bil2;
-                    min =bil1;
-                    
+                    min = bil1;
+
                 } else {
                     middle = bil1;
                     min = bil2;
@@ -67,9 +68,7 @@ public class Bilangan10 {
         System.out.println("max : " + max);
         System.out.println("middle : " + middle);
         System.out.println("min : " + min);
-    
-
-     
-    }
 
     }
+
+}
