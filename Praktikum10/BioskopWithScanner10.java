@@ -98,6 +98,8 @@
 //     }
 // }
 
+
+// yang ini jawaban percobaan 2 nomor 3
 import java.util.Scanner;
 public class BioskopWithScanner10 {
     public static void main(String[] args) {
