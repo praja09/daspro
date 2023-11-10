@@ -12,6 +12,5 @@ public class ContohVariabel10 {
     System.out.println("Jenis kelamin: " + jenisKelamin);
     System.out.println("IPK: " + $ipk);
     System.out.println(String.format("Saya berumur %s dengan tinggi badan %s", _umurSayaSekarang, tinggi));
-
     }
 }
