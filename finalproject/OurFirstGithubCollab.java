@@ -7,5 +7,5 @@ public class OurFirstGithubCollab{
             System.out.println("Aku mau makan");
             System.out.println("Terserah");
             System.out.println("Inshallah");
-        }
+    }
 }

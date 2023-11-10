@@ -13,4 +13,4 @@ public class PemilihanBilangan10{
         
         input10.close();
     }
-    }
+}
