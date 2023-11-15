@@ -1,4 +1,3 @@
-package Praktikum11;
 import java.util.Scanner;
 
 public class TugasIndividuSegitiga10 {
@@ -20,4 +19,3 @@ public class TugasIndividuSegitiga10 {
         }
     }
 }
-

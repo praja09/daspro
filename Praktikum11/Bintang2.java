@@ -1,5 +1,3 @@
-package Praktikum11;
-
 public class Bintang2 {
         public static void main(String[] args) {
         

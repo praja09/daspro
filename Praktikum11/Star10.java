@@ -1,4 +1,3 @@
-package Praktikum11;
 import java.util.Scanner;
 
 public class Star10 {
