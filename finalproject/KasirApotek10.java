@@ -68,7 +68,7 @@ public class KasirApotek10 {
                         System.out.printf("%-4d%-30s%-12s%-12s%-15s%n", i + 1, daftarObat[i][0], daftarObat[i][1],
                                 daftarObat[i][2], daftarObat[i][3]);
                     }
-                    System.out.println("==========================================");
+                    System.out.println("+++++++++++++++++++++++++=================");
                     while (true) {
                         System.out.print("Masukkan kode obat: ");
                         sc.nextLine(); // Membuang karakter newline
@@ -112,10 +112,10 @@ public class KasirApotek10 {
                         switch (menuInventory) {
                             case "1":
                                 sc.nextLine();
-                                System.out.println("---------------------------------------------------");
+                                System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++-");
 
                                 System.out.println("             Tambah barang baru               ");
-                                System.out.println("---------------------------------------------------");
+                                System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++-");
 
                                 System.out.print("Input barang baru : ");
                                 String barangBaru = sc.nextLine();
@@ -222,11 +222,11 @@ public class KasirApotek10 {
 
                     System.out.println("");
                     System.out.println(
-                            "=======================================================================================");
+                            "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++============");
                     System.out.println(
                             "                             Daftar Obat dalam Keranjang                               ");
                     System.out.println(
-                            "=======================================================================================");
+                            "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++============");
                     System.out.printf("%-4s%-30s%30s%20s%n", "ID", "Nama Obat", "Kode Obat", "Sisa Kuantitas");
 
                     for (int i = 0; i < indexKeranjang; i++) {
@@ -234,7 +234,7 @@ public class KasirApotek10 {
                                 daftarObat[i][2]);
                     }
                     System.out.println(
-                            "---------------------------------------------------------------------------------------");
+                            "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++------------");
                     System.out.println("");
 
                     sc.nextLine(); // Membuang karakter newline
@@ -264,27 +264,27 @@ public class KasirApotek10 {
                     }
                     int kembalian = uangPelanggan - finalHarga;
 
-                    System.out.println("\n============================================================");
+                    System.out.println("\n++++++++++++++++++++++++++++++++++++++++++++++++++==========");
                     System.out.println("                 STRUK PEMBAYARAN - INVOICE");
-                    System.out.println("============================================================");
+                    System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++==========");
                     System.out.println("No. Transaksi   :                                 #INV123456789");
                     System.out.println("Tanggal         :                              17 November 2023");
                     System.out.println("Kasir            :                               " + loginUser);
-                    System.out.println("------------------------------------------------------------");
+                    System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++----------");
                     System.out.printf("%-4s%-30s%-12s%-12s%n", "ID", "Nama Obat", "Kode Obat", "Sisa Kuantitas");
-                    System.out.println("------------------------------------------------------------");
+                    System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++----------");
                     for (int i = 0; i < indexKeranjang; i++) {
                         System.out.printf("%-4d%-30s%4s%15s%n", i + 1, keranjang[i], daftarObat[i][1],
                                 daftarObat[i][2]);
                     }
-                    System.out.println("------------------------------------------------------------");
+                    System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++----------");
                     System.out.println("Sub total       :                                 " + totalHarga);
                     System.out.println("Diskon          :                                 " + diskon);
-                    System.out.println("------------------------------------------------------------");
+                    System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++----------");
                     System.out.println("Total           :                                 " + "Rp " + finalHarga);
                     System.out.println("Tunai           :                                 " + "Rp " + uangPelanggan);
                     System.out.println("Kembali         :                                 " + "Rp " + kembalian);
-                    System.out.println("------------------------------------------------------------");
+                    System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++----------");
                     System.out.println(
                             "                TERIMA KASIH, LEKAS MEMBAIK                                       ");
                     System.out.println(
@@ -295,15 +295,15 @@ public class KasirApotek10 {
                             "                      0857 4957 7424                                              ");
                     System.out.println(
                             "                    popmedika@gmail.com                                           ");
-                    System.out.println("============================================================");
+                    System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++==========");
 
                     // double kembalian = uangPelanggan - finalHarga;
                     // System.out.println("");
-                    // System.out.println("------------------------------------------");
+                    // System.out.println("+++++++++++++++++++++++++-----------------");
                     // System.out.println("Kembalian : Rp " + kembalian);
                     // System.out.println("");
                     // System.out.println("Terimakasih Telah belanja!");
-                    // System.out.println("------------------------------------------");
+                    // System.out.println("+++++++++++++++++++++++++-----------------");
                     break;
                 case 3:
                     System.out.println("Cetak Struk");
@@ -313,7 +313,7 @@ public class KasirApotek10 {
                 case 4:
 
                 case 5:
-                    System.out.println("=--------------------------------------------=");
+                    System.out.println("+++++++++++++++++++++++++=-------------------=");
                     System.out.println("Terima kasih telah berbelanja di apotek kami!");
                     System.exit(0);
                     break;

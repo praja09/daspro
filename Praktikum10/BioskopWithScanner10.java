@@ -44,13 +44,13 @@
 //         String[][] penonton = new String[4][2];
 
 //     while (true) {
-//         System.out.println("============================");
+//         System.out.println("+++++++++++++++++++++++++===");
 //         System.out.println("Selamat Datang Di Bioskop 1D");
-//         System.out.println("============================");
+//         System.out.println("+++++++++++++++++++++++++===");
 //         System.out.println("- Menu 1 : Input Data Penonton");
 //         System.out.println("- Menu 2 : Tampilan Daftar Penonton");
 //         System.out.println("- Menu 3 : Exit");
-//         System.out.println("============================");
+//         System.out.println("+++++++++++++++++++++++++===");
 //         System.out.println("Masukkan Pilihan Anda : ");
 //         choice = sc.nextInt();
 //         sc.nextLine(); // Consume the newLine character

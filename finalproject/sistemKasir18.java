@@ -25,7 +25,7 @@ public class sistemKasir18 {
 
             System.out.println("Subtotal harga obat "+ namaObat + ":"+ subtotal);
 
-            System.out.println("====================================");
+            System.out.println("+++++++++++++++++++++++++===========");
 
             System.out.print("Apakah Anda ingin memasukkan obat lagi? (ya/tidak): ");
             String lanjut = input.next();
