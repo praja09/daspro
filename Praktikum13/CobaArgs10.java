@@ -1,5 +1,6 @@
 package Praktikum13;
 
+import java.util.Scanner;
 public class CobaArgs10 {
     public static void main(String[] args) {
 
@@ -9,7 +10,8 @@ public class CobaArgs10 {
         } else {
         // for (int i = 0; i < args.length; i++) {
             // System.out.println(args[i]);
-            System.out.println("Hai , Selamat Datang ");
+            System.out.println("Hai Cica ");
+            System.out.println("Selamat datang di Polinema ");
         }
     }
 }
